@@ -62,11 +62,17 @@ State aplikasi dikelola dengan **Context API** dan disimpan di browser menggunak
 
 Berikut screenshot hasil menjalankan unit tests dengan React Testing Library:
 
+**SS 01**
 ![SS 01](images/01.png)
+**SS 02**
 ![SS 02](images/02.png)
+**SS 03**
 ![SS 03](images/03.png)
+**SS 04**
 ![SS 04](images/04.png)
+**SS 05**
 ![SS 05](images/05.png)
+**SS 06**
 ![SS 06](images/06.png)
 
 Pastikan menjalankan:
