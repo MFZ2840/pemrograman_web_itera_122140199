@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Validasi Form</title>
+</head>
+<body>
+    <h1>Form Registrasi</h1>
+    <form onsubmit="return validateForm()">
+        <label>Nama:</label>
+        <input type="text" id="nama"><br><br>
+
+        <label>Email:</label>
+        <input type="email" id="email"><br><br>
+
+        <label>Password:</label>
+        <input type="password" id="password"><br><br>
+
+        <button type="submit">Daftar</button>
+    </form>
+
+    <p id="error"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

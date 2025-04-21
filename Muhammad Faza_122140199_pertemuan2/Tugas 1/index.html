@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard Jadwal Kuliah</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #eef2f5;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .schedule-entry {
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+    }
+    .schedule-entry:last-child {
+      border-bottom: none;
+    }
+    .actions button {
+      margin-right: 5px;
+    }
+    input, select {
+      padding: 5px;
+      margin: 5px 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    button {
+      padding: 7px 15px;
+      margin-top: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Dashboard Jadwal Kuliah</h1>
+    <div>
+      <h2>Tambah Jadwal Kuliah</h2>
+      <input type="text" id="courseInput" placeholder="Nama Mata Kuliah">
+      <input type="text" id="timeInput" placeholder="Waktu (contoh: 08:00 - 10:00)">
+      <input type="text" id="roomInput" placeholder="Ruangan">
+      <button id="addScheduleBtn">Tambah Jadwal</button>
+    </div>
+    <hr>
+    <div>
+      <h2>Daftar Jadwal Kuliah</h2>
+      <div id="scheduleList"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
