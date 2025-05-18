@@ -1,0 +1,2 @@
+[paste.app_factory]
+main = course_api:main

@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: course_api_app
+Version: 0.1
+Requires-Dist: pyramid
+Requires-Dist: pyramid_debugtoolbar
+Requires-Dist: waitress
+Requires-Dist: SQLAlchemy
+Dynamic: requires-dist
