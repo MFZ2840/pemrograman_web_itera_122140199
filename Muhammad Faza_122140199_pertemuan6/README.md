@@ -104,7 +104,12 @@ Server akan berjalan di `http://localhost:6543/`.
 
 ## Dokumentasi & Screenshot
 
-*(Tambahkan screenshot terminal dengan output curl atau Postman di sini)*
+**SS 01**
+![SS 01](images/CMD.png)
+**SS 02**
+![SS 02](images/Result.png)
+**SS 03**
+![SS 03](images/Remove Input Result.png)
 
 ## Fitur
 
