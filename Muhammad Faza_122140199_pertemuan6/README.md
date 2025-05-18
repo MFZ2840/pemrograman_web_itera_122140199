@@ -109,7 +109,7 @@ Server akan berjalan di `http://localhost:6543/`.
 **SS 02**
 ![SS 02](images/Result.jpeg)
 **SS 03**
-![SS 03](images/Remove Input Result.jpeg)
+![SS 03](images/Remove_Input_Result.jpeg)
 
 ## Fitur
 
